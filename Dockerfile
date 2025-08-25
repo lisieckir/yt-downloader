@@ -17,5 +17,5 @@ RUN npm run build
 
 VOLUME ["/downloads"]
 
-EXPOSE 3000
+EXPOSE 80
 CMD ["npm", "run", "start:prod"]
